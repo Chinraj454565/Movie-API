@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.venv*/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Django migrations (optional, if you don’t want to commit them)
+# **Sometimes you keep migrations in version control for teamwork**
+# */migrations/
+# !*/migrations/__init__.py
+
+# Environment & settings
+.env
+*.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# pytest / coverage
+.coverage
+*.cover
+htmlcov/
+.pytest_cache/
